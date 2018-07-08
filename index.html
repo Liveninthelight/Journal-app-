@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>BulletJournal</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Bullet Journal</title>
+	<link rel="stylesheet" type="text/css" href="css/journal.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Architects+Daughter|Roboto+Slab" rel="stylesheet">
+	<script type="text/javascript" src="js/lib/jquery-3.1.1.min.js"></script>
+</head>
+<body>
+	<div id="container">
+		<div id="header">	
+			<div class="headerLine"><span id="month">month</span> <span id="date">date <span id="ordinal"></span></span> <span id="year">YEAR</span></div>
+			<div class="headerLine"><span id="day">day</span>  
+			<span id="clock">
+				<span id="diem"></span><span id="milliseconds"></span><span id="time"></span>
+			</span></div> 
+		</div>
+		<div id="ui">
+			<select id="type">
+				<option value="task">Add a Task</option>
+				<option value="note">Add a Note</option>
+				<option value="event">Add a Event</option>
+			</select>
+			<input type="text" name="item" id="input" placeholder="  what's next?">
+			<button id="addButton">Add it <i class="fa fa-pencil" aria-hidden="true"></i></button>
+		</div>
+		<div>
+			<span class="label">Tasks</span>
+			<ul id="tasks" class="itemContainer">
+				<li class="item">walk my dinosaur<i class="fa fa-check removeBtn" ></i></li>
+				<li class="item">Feed my cat <i class="fa fa-check removeBtn" ></i></li>
+				<li class="item">Feed my cat to my dinosaure<i class="fa fa-check removeBtn" ></i></li>
+			</ul>
+		</div>
+		<div>
+			<span class="label">Notes</span>	
+			<ul id="notes" class="itemContainer">
+				<li class="item">Don't forget to check e-mail <i class="fa fa-check removeBtn" ></i></li>
+				<li class="item">Call Mom<i class="fa fa-check removeBtn" ></i></li>
+				<li class="item">Keep focus<i class="fa fa-check removeBtn" ></i></li>
+			</ul>
+		</div>
+		<div>
+			<span class="label">Events</span>
+			<ul id="events" class="itemContainer">
+				<li class="item">Computer Architecture exam <i class="fa fa-check removeBtn" ></i></li>
+				<li class="item">Started learning cooking <3 ! <i class="fa fa-check removeBtn" ></i></li>
+			</ul>
+		</div>
+		<div id="footer">
+			<div id="percentClock"><span id="fixedPercent"></span><span id="floatPercent"></span></div>
+			<span id="afterPercentPhrase">of the day remaining</span>
+		</div>
+	</div>
+	<script type="text/javascript" src="js/journal.js"></script>
+</body>
+</html>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>

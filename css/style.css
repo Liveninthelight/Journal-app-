@@ -1,0 +1,206 @@
+
+body{
+	background: -webkit-linear-gradient(to left, #4ECDC4 , #556270);
+	background: linear-gradient(to left, #4ECDC4 , #556270);
+}
+ul{
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+div{
+	/*border: 1px solid black;*/
+	/*box-shadow: 0px 2px 15px black;*/
+}
+#container > div{
+	box-sizing: border-box;
+	width: 94%;
+	margin: 5px auto;
+	padding: 5px 10px 5px 25px;
+	background: #F8ECC2;
+	border-radius: 3px;
+	color: #000F55;
+	box-shadow: 0px 2px 15px black;
+
+}
+#container{
+	box-sizing: content-box;
+	width: 400px;
+	padding: 25px 0;
+	margin: 12px auto;
+	background: url("https://2.bp.blogspot.com/-ktXnXt4U2_M/T3L191a1REI/AAAAAAAABlg/wKFBuv0ZQjQ/s1600/Seamless+brown+paper+texture.jpg");
+	background-size: 300px 300px;
+	border-radius: 10px;
+	font-family: Architects daughter;
+	box-shadow: 0px 2px 15px black;
+
+}
+
+#container #header{
+	padding: 20px;
+}
+#container #footer{
+	padding-bottom: 20px;
+}
+#header span{
+	font-size: 20px;
+}
+.headerLine{
+	border: none;
+}
+#header #month{
+	font-size: 30px;
+}
+#header #date{
+	font-size: 25px;
+	margin-left: 5px;
+}
+#header #milliseconds{
+	float: right;
+	position: relative;
+	right: -18px;
+	bottom: -5px;
+	width: 50px;
+	border: none;
+	height: 10px;
+	line-height: 100%;
+	font-size: 10px;
+	font-weight: bold;
+	letter-spacing: 5px;
+}
+#header #year{
+	float: right;
+	font-size: 30px;
+	margin-right: 20px;
+}
+#header #time{
+	display: inline-block;
+	position: relative;
+	right: -5px;
+	float: right;
+	text-align: left;
+	width: 65px;
+	font-family: Roboto Slab;
+}
+#header #diem{
+	position: relative;
+	right: 32px;
+	float: right;
+	display: block;
+	font-size: 15px;
+	font-weight: bold;
+	height: 10px;
+	width: 20px;
+	margin-top: 10px;
+}
+#type{
+	position: relative;
+	top: 3px;
+	width: 58px;
+	height: 44px;
+	padding-left: 10px;
+	/*border: 1px solid #000F55;*/
+	border: none;
+	border-radius: 8px;
+	background: #F8ECC2;
+	/*box-shadow: inset 0 0 5px black;*/
+	/*font-weight: bold;*/
+}
+#container #ui{
+	background: #F5D97E;
+	padding-left: 15px;
+}
+.label{
+	font-weight: bold;
+	letter-spacing: 3px;
+}
+#input:focus, #type:focus, #addButton:focus{
+	outline: none;
+}
+#input{
+	position: relative;
+	top: 3px;
+	width: 205px;
+	padding-left: 10px;
+	/*border: 1px solid #000F55;*/
+	border: none;
+	border-radius: 8px;
+	height: 42px;
+	background: #F8ECC2;
+	/*box-shadow: inset 0 0 5px black;*/
+	/*font-weight: bold;*/
+}
+#addButton{
+	position: relative;
+	top: -4px;
+	width: 55px;
+	padding: 7px;
+	/*border: 1px solid #000F55;*/
+	border: none;
+	border-radius: 8px;
+	background: #F8ECC2;
+	/*box-shadow: inset 0 0 5px black;*/
+	/*font-weight: bold;*/
+}
+li .removeBtn{
+	display: none;
+	float: right;
+}
+li:hover .removeBtn{
+	display: inline-block;
+}
+.completed{
+	color: #222;
+	text-decoration: line-through;
+}
+#percentClock{
+	position: relative;
+	right: -60px;
+	top: -3px;
+	display: inline-block;
+	margin-left: 110px;
+	margin-right: 3px;
+	border: none;
+	height: 30px;
+	width: 110px;
+	font-family: Roboto Slab;
+}
+#container #footer{
+	padding: 5px 20px;
+}
+#footer span{
+	display: inline-block;
+	/*position: relative;
+	top: 20px;*/
+	/*margin-bottom: 10px;*/
+	font-size: 10px;
+	width: 40px;
+	height: 30px;
+}
+#footer #fixedPercent{
+	position: relative;
+	right: 8px;
+	display: inline-block;
+	position: relative;
+	text-align: right;
+	font-size: 40px;
+	width: 60px;
+	height: 60px;
+}
+#footer #floatPercent{
+	position: relative;
+	left: -8px;
+	display: inline-block;
+	font-size: 20px;
+	width: 40px;
+	height: 30px;
+}
+#footer #afterPercentPhrase{
+	position: relative;
+	top: -5px;
+	right: -36px;
+	display: inline-block;
+	width: 100px;
+	font-weight: bold;
+	font-family: Roboto Slab;
+	letter-spacing: 3px;
+}
